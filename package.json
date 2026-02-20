@@ -1,0 +1,23 @@
+{
+  "name": "pacman",
+  "version": "1.0.0",
+  "description": "A faithful clone of the classic Pac-Man arcade game",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/howler": "^2.2.12",
+    "puppeteer": "^24.37.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "howler": "^2.2.4"
+  }
+}
