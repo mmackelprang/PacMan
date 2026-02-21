@@ -3,3 +3,6 @@ dist/
 *.png
 !docs/*.png
 .claude/
+findings.md
+progress.md
+task_plan.md
