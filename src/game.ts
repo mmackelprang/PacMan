@@ -678,9 +678,16 @@ export class Game {
         pac.moving = false;
       }
     } else {
-      pac.px = newX;
-      pac.py = newY;
-      pac.moving = true;
+      if (!this.maze.isWalkable(wrappedAheadCol, aheadRow)) {
+        // Wall ahead — clamp to tile center, don't drift forward
+        if (delta.x !== 0) pac.px = Math.abs(newX - tileCenter.x) < Math.abs(pac.px - tileCenter.x) ? newX : tileCenter.x;
+        else pac.py = Math.abs(newY - tileCenter.y) < Math.abs(pac.py - tileCenter.y) ? newY : tileCenter.y;
+        pac.moving = false;
+      } else {
+        pac.px = newX;
+        pac.py = newY;
+        pac.moving = true;
+      }
     }
 
     // Eat dots
