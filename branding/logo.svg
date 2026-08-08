@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 811 256">
+  <g transform="translate(0,40) scale(0.6875)">
+    <rect width="256" height="256" rx="56" fill="#0A0A14"/>
+
+<path d="M112 128 L172 93 A70 70 0 1 0 172 163 Z" fill="#FFD54F"/>
+<circle cx="196" cy="128" r="9" fill="#FFFFFF"/>
+<circle cx="222" cy="128" r="6" fill="#FFFFFF" opacity="0.6"/>
+
+  </g>
+  <text x="224" y="140" font-family="Montserrat, 'Segoe UI', 'DejaVu Sans', system-ui, sans-serif" font-size="84" font-weight="700" fill="#1B1F26">Chomp</text>
+  <text x="224" y="192" font-family="Montserrat, 'Segoe UI', 'DejaVu Sans', system-ui, sans-serif" font-size="32" font-weight="500" fill="#5A6472">The maze, faithfully recreated.</text>
+</svg>
